@@ -1,0 +1,203 @@
+l̥ō/***********Tags**********/
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/***********Classes**********/
+
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+.testimonial-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+    /* font-weight: 100; */
+}
+
+.downlaod-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.feature-heading {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.feature-discreption {
+    color: #8f8f8f;
+}
+
+.feature-image {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.feature-image:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-images {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.price-grid {
+    padding: 3% 2%;
+}
+
+.iphone {
+    position: relative;
+}
+
+.footer-icon {
+    margin: 0 2%;
+    : 100px;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.fb:hover {
+    color: #4267B2;
+}
+
+.insta:hover {
+    color: #FD1D1D;
+}
+
+.mail:hover {
+    color: #98f542;
+}
+
+/***********Ids**********/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    /* height: 700px; */
+
+}
+
+#img {
+    transform: rotate(20deg);
+    width: 55%;
+    position: absolute;
+    right: 15%;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    /* padding: 3% 15%; */
+}
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 10% 2%;
+}
+
+#ctaHeading {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 10% 3%;
+}
+
+#footer-icons {
+    margin: 3% 0;
+}
+
+/******* Media Queries ********/
+
+@media (max-width: 780px) {
+    #img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .row {
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 450px) {
+    .rowHeading {
+        font-size: 2.5rem;
+    }
+}
